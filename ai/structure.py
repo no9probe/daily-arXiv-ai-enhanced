@@ -6,3 +6,5 @@ class Structure(BaseModel):
   method: str = Field(description="method of this paper")
   result: str = Field(description="result of this paper")
   conclusion: str = Field(description="conclusion of this paper")
+  paper_title_zh: str = Field(description="translate the paper title to Chinese")
+  abstract_zh: str = Field(description="translate the abstract to Chinese")

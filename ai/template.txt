@@ -1,4 +1,16 @@
-Please analyze the following abstract of papers. 
+Please analyze the following paper. 
 
-Content:
+Title:
+{title}
+
+Abstract:
 {content}
+
+Please provide:
+1. A concise TLDR summary
+2. The paper's motivation
+3. The paper's method
+4. The paper's result
+5. The paper's conclusion
+6. Chinese translation of the paper title
+7. Chinese translation of the abstract

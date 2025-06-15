@@ -49,6 +49,8 @@ if __name__ == "__main__":
                     method=item['AI']['method'],
                     result=item['AI']['result'],
                     conclusion=item['AI']['conclusion'],
+                    paper_title_zh=item['AI'].get('paper_title_zh', '翻译失败'),
+                    abstract_zh=item['AI'].get('abstract_zh', '翻译失败'),
                     cate=item['categories'][0],
                     idx=next(idx)
                 )

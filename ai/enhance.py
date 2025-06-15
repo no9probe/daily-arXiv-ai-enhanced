@@ -58,7 +58,8 @@ def main():
         try:
             response: Structure = chain.invoke({
                 "language": language,
-                "content": d['summary']
+                "content": d['summary'],
+                "title": d['title']
             })
             d['AI'] = response.model_dump()
         except langchain_core.exceptions.OutputParserException as e:
@@ -68,7 +69,9 @@ def main():
                  "motivation": "Error",
                  "method": "Error",
                  "result": "Error",
-                 "conclusion": "Error"
+                 "conclusion": "Error",
+                 "paper_title_zh": "Error",
+                 "abstract_zh": "Error"
             }
         with open(args.data.replace('.jsonl', f'_AI_enhanced_{language}.jsonl'), "a") as f:
             f.write(json.dumps(d) + "\n")

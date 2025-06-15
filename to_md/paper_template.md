@@ -1,4 +1,6 @@
 ### [{idx}] [{title}]({url})
+**中文标题：{paper_title_zh}**
+
 *{authors}*
 
 Main category: {cate}
@@ -16,6 +18,6 @@ Result: {result}
 
 Conclusion: {conclusion}
 
-Abstract: {summary}
+摘要: {abstract_zh}
 
 </details>
