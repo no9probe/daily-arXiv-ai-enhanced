@@ -6,7 +6,7 @@ Title:
 Abstract:
 {content}
 
-Please provide:
+Please provide all the following content in {language}:
 1. A concise TLDR summary
 2. The paper's motivation
 3. The paper's method
