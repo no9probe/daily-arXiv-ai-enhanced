@@ -6,11 +6,13 @@ Title:
 Abstract:
 {content}
 
-Please provide all the following content in {language}:
-1. A concise TLDR summary
-2. The paper's motivation
-3. The paper's method
-4. The paper's result
-5. The paper's conclusion
-6. Chinese translation of the paper title
-7. Chinese translation of the abstract
+Please provide ALL the following content in {language} ONLY. DO NOT use English when {language} is Chinese:
+1. A concise TLDR summary (完全使用{language})
+2. The paper's motivation (完全使用{language})
+3. The paper's method (完全使用{language}) 
+4. The paper's result (完全使用{language})
+5. The paper's conclusion (完全使用{language})
+6. {language} translation of the paper title
+7. {language} translation of the abstract
+
+重要提示：如果{language}是中文，所有输出必须全部使用中文，包括TLDR、动机、方法、结果和结论，不要使用任何英文！

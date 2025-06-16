@@ -3,21 +3,21 @@
 
 *{authors}*
 
-Main category: {cate}
+主要分类: {cate}
 
-TL;DR: {tldr}
+摘要简述: {tldr}
 
 
 <details>
-  <summary>Details</summary>
-Motivation: {motivation}
+  <summary>详细信息</summary>
+研究动机: {motivation}
 
-Method: {method}
+研究方法: {method}
 
-Result: {result}
+研究结果: {result}
 
-Conclusion: {conclusion}
+研究结论: {conclusion}
 
-摘要: {abstract_zh}
+中文摘要: {abstract_zh}
 
 </details>
